@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spelling Correction Survey 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-container {
+            max-width: 920px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        label {
+            font-weight: bold;
+            user-select: none; /* テキストの選択を無効化 */
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        input[type="text"] {
+            width: 20%; /* 入力フィールドをフォームの幅に合わせる */
+            padding: 2px; /* 内側の余白 */
+            box-sizing: border-box; /* パディングを含めて幅を計算 */
+        }
+        input[type="text"] {
+            -webkit-user-select: none; /* 貼り付けの無効化 */
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        input[type="text"]::selection {
+            background: none; /* 選択ハイライトの無効化 */
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Spelling Correction Survey 2</h1>
+        <p>Please correct the misspelled word in each sentence:</p>
+        <form action="https://example.com/submit" method="POST">
+
+
+
+             <!-- Sentence 1 -->
+                    <div class="form-group">
+                                    <label for="sentence1">1. Store fruit juice in the <u>refrigerater</u>.</label><br>
+                                                    <input type="text" id="sentence1" name="sentence1" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 2 -->
+                    <div class="form-group">
+                                    <label for="sentence2">2. We went to a little Italian <u>restaraunt</u> and shared a pizza.</label><br>
+                                                    <input type="text" id="sentence2" name="sentence2" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 3 -->
+                    <div class="form-group">
+                                    <label for="sentence3">3. I'll give you the keys to my <u>apartmant</u>.</label><br>
+                                                    <input type="text" id="sentence3" name="sentence3" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 4 -->
+                    <div class="form-group">
+                                    <label for="sentence4">4. An old <u>calandar</u> for 2012 was still hanging on the wall of her office. </label><br>
+                                                    <input type="text" id="sentence4" name="sentence4" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 5 -->
+                    <div class="form-group">
+                                    <label for="sentence5">5. I don't know anything about this, but I'm sure my <u>collegue</u> here can help you.</label><br>
+                                                    <input type="text" id="sentence5" name="sentence5" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 6 -->
+                    <div class="form-group">
+                                    <label for="sentence6">6. We were taught painting and drawing in art <u>collegue</u>.</label><br>
+                                                    <input type="text" id="sentence6" name="sentence6" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 7 -->
+                    <div class="form-group">
+                                    <label for="sentence7">7. "Fatter" is the <u>compareative</u> of "fat."</label><br>
+                                                    <input type="text" id="sentence7" name="sentence7" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 8 -->
+                    <div class="form-group">
+                                    <label for="sentence8">8. We really ought to leave <u>imediately</u>.</label><br>
+                                                    <input type="text" id="sentence8" name="sentence8" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 9 -->
+                    <div class="form-group">
+                                    <label for="sentence9">9. They stole<u>jewellory</u> valued at £50,000.</label><br>
+                                                    <input type="text" id="sentence9" name="sentence9" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 10 -->
+                    <div class="form-group">
+                                    <label for="sentence10">10. <u>Temperetures</u> have risen over the past few days</label><br>
+                                                    <input type="text" id="sentence10" name="sentence10" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 11 -->
+                    <div class="form-group">
+                                    <label for="sentence11">11. <u>Unfourtunately</u>, I didn't have my credit card with me, or else I would have bought it.</label><br>
+                                                    <input type="text" id="sentence11" name="sentence11" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 12 -->
+                    <div class="form-group">
+                                    <label for="sentence12">12. I <u>accidentelly</u> knocked a glass over.</label><br>
+                                                    <input type="text" id="sentence12" name="sentence12" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 13 -->
+                    <div class="form-group">
+                                    <label for="sentence13">13. A decision was finally made after some heated <u>argumant</u>.</label><br>
+                                                    <input type="text" id="sentence13" name="sentence13" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 14 -->
+                    <div class="form-group">
+                                    <label for="sentence14">14. I agree with you <u>complitely</u>.</label><br>
+                                                    <input type="text" id="sentence14" name="sentence14" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 15 -->
+                    <div class="form-group">
+                                    <label for="sentence15">15. He <u>definatly</u> said he'd be here.</label><br>
+                                                    <input type="text" id="sentence15" name="sentence15" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 16 -->
+                    <div class="form-group">
+                                    <label for="sentence16">16. The sun <u>disapeared</u> behind heavy clouds.</label><br>
+                                                    <input type="text" id="sentence16" name="sentence16" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 17 -->
+                    <div class="form-group">
+                                    <label for="sentence17">17. I'm sorry to <u>disapoint</u> you, but I'm afraid I can't come after all.</label><br>
+                                                    <input type="text" id="sentence17" name="sentence17" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 18 -->
+                    <div class="form-group">
+                                    <label for="sentence18">18. I'm very fortunate to have had such a good <u>eduction</u>.</label><br>
+                                                    <input type="text" id="sentence18" name="sentence18" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 19 -->
+                    <div class="form-group">
+                                    <label for="sentence19">19. We're not doing enough to protect the <u>envirenment</u> from pollution.</label><br>
+                                                    <input type="text" id="sentence19" name="sentence19" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 20 -->
+                    <div class="form-group">
+                                    <label for="sentence20">20. The soldiers gave their <u>equipmant</u> a final check before setting off.</label><br>
+                                                    <input type="text" id="sentence20" name="sentence20" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 21 -->
+                    <div class="form-group">
+                                    <label for="sentence21">21. It's important to let your kids have the <u>experence</u> of figuring things out for themselves.</label><br>
+                                                    <input type="text" id="sentence21" name="sentence21" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 22 -->
+                    <div class="form-group">
+                                    <label for="sentence22">22. He told the <u>extrourdinary</u> story of his escape.</label><br>
+                                                    <input type="text" id="sentence22" name="sentence22" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 23 -->
+                    <div class="form-group">
+                                    <label for="sentence23">23. There were one or two <u>familier</u> faces.</label><br>
+                                                    <input type="text" id="sentence23" name="sentence23" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 24 -->
+                    <div class="form-group">
+                                    <label for="sentence24">24. I was never given the <u>oppourtunity</u> of going to college.</label><br>
+                                                    <input type="text" id="sentence24" name="sentence24" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 25 -->
+                    <div class="form-group">
+                                    <label for="sentence25">25. Are you looking for a temporary or a <u>permenent</u> job?</label><br>
+                                                    <input type="text" id="sentence25" name="sentence25" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 26 -->
+                    <div class="form-group">
+                                    <label for="sentence26">26. The media focus on <u>politcians'</u> private lives inevitably switches the attention away from the real issues.</label><br>
+                                                    <input type="text" id="sentence26" name="sentence26" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 27 -->
+                    <div class="form-group">
+                                    <label for="sentence27">27. There are two different <u>pronuncations</u> of this word.</label><br>
+                                                    <input type="text" id="sentence27" name="sentence27" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 28 -->
+                    <div class="form-group">
+                                    <label for="sentence28">28. Visitors to the country have been asked to fill out a detailed <u>questionnair</u>.</label><br>
+                                                    <input type="text" id="sentence28" name="sentence28" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 29 -->
+                    <div class="form-group">
+                                    <label for="sentence29">29. She has been <u>recommanded</u> for promotion.</label><br>
+                                                    <input type="text" id="sentence29" name="sentence29" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 30 -->
+                    <div class="form-group">
+                                    <label for="sentence30">30. I try to keep meat <u>separete</u> from other food in the refrigerator.</label><br>
+                                                    <input type="text" id="sentence30" name="sentence30" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 31 -->
+                    <div class="form-group">
+                                    <label for="sentence31">31. My second attempt at making bread was a little more <u>sucessful</u>.</label><br>
+                                                    <input type="text" id="sentence31" name="sentence31" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 32 -->
+                    <div class="form-group">
+                                    <label for="sentence32">32. I burned my <u>toungue</u> on some soup last night.</label><br>
+                                                    <input type="text" id="sentence32" name="sentence32" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 33 -->
+                    <div class="form-group">
+                                    <label for="sentence33">33. This is a good <u>explination</u> of the difference between "affect" and "effect."</label><br>
+                                                    <input type="text" id="sentence33" name="sentence33" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 34 -->
+                    <div class="form-group">
+                                    <label for="sentence34">34. You will need <u>permession</u> from your parents to go on the trip.</label><br>
+                                                    <input type="text" id="sentence34" name="sentence34" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 35 -->
+                    <div class="form-group">
+                                    <label for="sentence35">35. Everyone will have an <u>opportuinty</u> to comment.</label><br>
+                                                    <input type="text" id="sentence35" name="sentence35" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 36 -->
+                    <div class="form-group">
+                                    <label for="sentence36">36. Death was an everyday <u>occurrense</u> during the Civil War.</label><br>
+                                                    <input type="text" id="sentence36" name="sentence36" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 37 -->
+                    <div class="form-group">
+                                    <label for="sentence37">37. <u>Labortory</u> tests suggest that the new drug may be used to treat cancer.</label><br>
+                                                    <input type="text" id="sentence37" name="sentence37" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 38 -->
+                    <div class="form-group">
+                                    <label for="sentence38">38. They live in a <u>magnifcent</u> Tudor house.</label><br>
+                                                    <input type="text" id="sentence38" name="sentence38" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 39 -->
+                    <div class="form-group">
+                                    <label for="sentence39">39. She <u>apologaize</u>d for her husband’s rudeness.</label><br>
+                                                    <input type="text" id="sentence39" name="sentence39" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 40 -->
+                    <div class="form-group">
+                                    <label for="sentence40">40. <u>Aggresive</u> behavior will not be tolerated in the classroom.</label><br>
+                                                    <input type="text" id="sentence40" name="sentence40" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 41 -->
+                    <div class="form-group">
+                                    <label for="sentence41">41. These animals migrate <u>annualy</u> in search of food.</label><br>
+                                                    <input type="text" id="sentence41" name="sentence41" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 42 -->
+                    <div class="form-group">
+                                    <label for="sentence42">42. Her unhappiness was <u>apperent</u> to everyone.</label><br>
+                                                    <input type="text" id="sentence42" name="sentence42" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 43 -->
+                    <div class="form-group">
+                                    <label for="sentence43">43. He made his first stage/TV <u>apparance</u> at the age of six.</label><br>
+                                                    <input type="text" id="sentence43" name="sentence43" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 44 -->
+                    <div class="form-group">
+                                    <label for="sentence44">44. That party was too <u>bizare</u> for me!</label><br>
+                                                    <input type="text" id="sentence44" name="sentence44" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 45 -->
+                    <div class="form-group">
+                                    <label for="sentence45">45. The produce is sorted into <u>categaries</u> according to quality.</label><br>
+                                                    <input type="text" id="sentence45" name="sentence45" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 46 -->
+                    <div class="form-group">
+                                    <label for="sentence46">46. Players need to make a <u>commitement</u> to play for a full season.</label><br>
+                                                    <input type="text" id="sentence46" name="sentence46" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 47 -->
+                    <div class="form-group">
+                                    <label for="sentence47">47. The finance <u>commitee</u> controls the school's budget.</label><br>
+                                                    <input type="text" id="sentence47" name="sentence47" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 48 -->
+                    <div class="form-group">
+                                    <label for="sentence48">48. They made a <u>compareison</u> of different countries' eating habits.</label><br>
+                                                    <input type="text" id="sentence48" name="sentence48" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 49 -->
+                    <div class="form-group">
+                                    <label for="sentence49">49. I think she's very <u>concsious</u> of being the only person in the office who didn't have a college education.</label><br>
+                                                    <input type="text" id="sentence49" name="sentence49" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 50 -->
+                    <div class="form-group">
+                                    <label for="sentence50">50. Give your child just enough information to satisfy their <u>curriosity</u>.</label><br>
+                                                    <input type="text" id="sentence50" name="sentence50" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 51 -->
+                    <div class="form-group">
+                                    <label for="sentence51">51. There should be tougher <u>dicsipline</u> in schools.</label><br>
+                                                    <input type="text" id="sentence51" name="sentence51" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 52 -->
+                    <div class="form-group">
+                                    <label for="sentence52">52. Many people question the <u>existtence</u> of God.</label><br>
+                                                    <input type="text" id="sentence52" name="sentence52" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 53 -->
+                    <div class="form-group">
+                                    <label for="sentence53">53. Drivers are warned to take <u>extremme</u> care on the icy roads.</label><br>
+                                                    <input type="text" id="sentence53" name="sentence53" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 54 -->
+                    <div class="form-group">
+                                    <label for="sentence54">54. The system costs $99 including shipping and handling and a twelve-month <u>gurantee</u>.</label><br>
+                                                    <input type="text" id="sentence54" name="sentence54" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 55 -->
+                    <div class="form-group">
+                                    <label for="sentence55">55. An <u>indepandent</u> inquiry will determine whether the case should move forward.</label><br>
+                                                    <input type="text" id="sentence55" name="sentence55" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 56 -->
+                    <div class="form-group">
+                                    <label for="sentence56">56. He is blessed with both good looks and <u>intelligance</u>.</label><br>
+                                                    <input type="text" id="sentence56" name="sentence56" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 57 -->
+                    <div class="form-group">
+                                    <label for="sentence57">57. Old houses need a lot of <u>maintnance</u>.</label><br>
+                                                    <input type="text" id="sentence57" name="sentence57" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 58 -->
+                    <div class="form-group">
+                                    <label for="sentence58">58. We met on several <u>occasions</u> to discuss the issue.</label><br>
+                                                    <input type="text" id="sentence58" name="sentence58" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 59 -->
+                    <div class="form-group">
+                                    <label for="sentence59">59. An accident involving over ten vehicles has <u>ocurred</u> in the east-bound lane.</label><br>
+                                                    <input type="text" id="sentence59" name="sentence59" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 60 -->
+                    <div class="form-group">
+                                    <label for="sentence60">60. He's deeply <u>relegious</u> and goes to church twice a week.</label><br>
+                                                    <input type="text" id="sentence60" name="sentence60" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 61 -->
+                    <div class="form-group">
+                                    <label for="sentence61">61. He flexed his <u>mascles</u>  so that everyone could admire them.</label><br>
+                                                    <input type="text" id="sentence61" name="sentence61" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 62 -->
+                    <div class="form-group">
+                                    <label for="sentence62">62. Meeting you here in Rome is a remarkable <u>coincidance</u>.</label><br>
+                                                    <input type="text" id="sentence62" name="sentence62" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 63 -->
+                    <div class="form-group">
+                                    <label for="sentence63">63. Not making a will can have serious <u>consquences</u> for your children and other family members.</label><br>
+                                                    <input type="text" id="sentence63" name="sentence63" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 64 -->
+                    <div class="form-group">
+                                    <label for="sentence64">64. Although the play was written hundreds of years ago, it still has a <u>contemprary</u> feel to it.</label><br>
+                                                    <input type="text" id="sentence64" name="sentence64" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 65 -->
+                    <div class="form-group">
+                                    <label for="sentence65">65. A <u>continious</u> yellow line  in the middle of the road means no passing.</label><br>
+                                                    <input type="text" id="sentence65" name="sentence65" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 66 -->
+                    <div class="form-group">
+                                    <label for="sentence66">66. I like the <u>convanience</u> of living close to work.</label><br>
+                                                    <input type="text" id="sentence66" name="sentence66" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 67 -->
+                    <div class="form-group">
+                                    <label for="sentence67">67. Outside <u>investgators</u> will put the company's accounting practices through the wringer.</label><br>
+                                                    <input type="text" id="sentence67" name="sentence67" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 68 -->
+                    <div class="form-group">
+                                    <label for="sentence68">68. We elected him as our <u>representetive</u>.</label><br>
+                                                    <input type="text" id="sentence68" name="sentence68" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 69 -->
+                    <div class="form-group">
+                                    <label for="sentence69">69. He was arrested for taking part in <u>revelutionary</u> activities.</label><br>
+                                                    <input type="text" id="sentence69" name="sentence69" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 70 -->
+                    <div class="form-group">
+                                    <label for="sentence70">70. It is <u>outragueous</u> that these buildings remain empty while thousands of people have no homes.</label><br>
+                                                    <input type="text" id="sentence70" name="sentence70" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 71 -->
+                    <div class="form-group">
+                                    <label for="sentence71">71. I worked all morning without <u>interrupition</u>.</label><br>
+                                                    <input type="text" id="sentence71" name="sentence71" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 72 -->
+                    <div class="form-group">
+                                    <label for="sentence72">72. She set up in business as a management <u>consuletant</u>.</label><br>
+                                                    <input type="text" id="sentence72" name="sentence72" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 73 -->
+                    <div class="form-group">
+                                    <label for="sentence73">73. Any help you could give me would be greatly <u>appresciated</u>.</label><br>
+                                                    <input type="text" id="sentence73" name="sentence73" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 74 -->
+                    <div class="form-group">
+                                    <label for="sentence74">74. You must <u>acknowleage</u> the truth of her argument.</label><br>
+                                                    <input type="text" id="sentence74" name="sentence74" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 75 -->
+                    <div class="form-group">
+                                    <label for="sentence75">75. It was when we started living together that we found we just weren't <u>compatiable</u>.</label><br>
+                                                    <input type="text" id="sentence75" name="sentence75" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 76 -->
+                    <div class="form-group">
+                                    <label for="sentence76">76. She has shown herself to be a highly <u>compentent</u> manager.</label><br>
+                                                    <input type="text" id="sentence76" name="sentence76" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 77 -->
+                    <div class="form-group">
+                                    <label for="sentence77">77. Such a war would be <u>disastrus</u> for the country.</label><br>
+                                                    <input type="text" id="sentence77" name="sentence77" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 78 -->
+                    <div class="form-group">
+                                    <label for="sentence78">78. Don't <u>exaggreate</u> - it wasn't that expensive.</label><br>
+                                                    <input type="text" id="sentence78" name="sentence78" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 79 -->
+                    <div class="form-group">
+                                    <label for="sentence79">79. He told one or two <u>humerous</u> stories about his years as a policeman.</label><br>
+                                                    <input type="text" id="sentence79" name="sentence79" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 80 -->
+                    <div class="form-group">
+                                    <label for="sentence80">80. The government has refused to <u>negoutiate</u> with the strikers.</label><br>
+                                                    <input type="text" id="sentence80" name="sentence80" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 81 -->
+                    <div class="form-group">
+                                    <label for="sentence81">81. Women's magazines are often <u>perseived</u> to be superficial.</label><br>
+                                                    <input type="text" id="sentence81" name="sentence81" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 82 -->
+                    <div class="form-group">
+                                    <label for="sentence82">82. It was a real <u>privilegue</u> to meet her.</label><br>
+                                                    <input type="text" id="sentence82" name="sentence82" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 83 -->
+                    <div class="form-group">
+                                    <label for="sentence83">83. Meat and fish are a vital source of <u>portein</u>.</label><br>
+                                                    <input type="text" id="sentence83" name="sentence83" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 84 -->
+                    <div class="form-group">
+                                    <label for="sentence84">84. He decided to <u>purseue</u> a career in television.</label><br>
+                                                    <input type="text" id="sentence84" name="sentence84" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 85 -->
+                    <div class="form-group">
+                                    <label for="sentence85">85. Good communication is an important <u>compenent</u> of any relationship.</label><br>
+                                                    <input type="text" id="sentence85" name="sentence85" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 86 -->
+                    <div class="form-group">
+                                    <label for="sentence86">86. The children have no <u>consiousness</u> of being different.</label><br>
+                                                    <input type="text" id="sentence86" name="sentence86" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 87 -->
+                    <div class="form-group">
+                                    <label for="sentence87">87. As people <u>accummulate</u> more wealth, they tend to spend a greater proportion of their incomes.</label><br>
+                                                    <input type="text" id="sentence87" name="sentence87" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 88 -->
+                    <div class="form-group">
+                                    <label for="sentence88">88. The general <u>consencus</u> in the office is that he can't do his job.</label><br>
+                                                    <input type="text" id="sentence88" name="sentence88" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 89 -->
+                    <div class="form-group">
+                                    <label for="sentence89">89. I didn't want to <u>embarras</u> her in front of her friends.</label><br>
+                                                    <input type="text" id="sentence89" name="sentence89" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 90 -->
+                    <div class="form-group">
+                                    <label for="sentence90">90. I'll be living here for the <u>foreseable</u> future.</label><br>
+                                                    <input type="text" id="sentence90" name="sentence90" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 91 -->
+                    <div class="form-group">
+                                    <label for="sentence91">91. Some monkeys have a very complex social <u>heirarchy</u>.</label><br>
+                                                    <input type="text" id="sentence91" name="sentence91" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 92 -->
+                    <div class="form-group">
+                                    <label for="sentence92">92. She gave me one of those <u>irresistble</u> smiles and I just had to agree.</label><br>
+                                                    <input type="text" id="sentence92" name="sentence92" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 93 -->
+                    <div class="form-group">
+                                    <label for="sentence93">93. Imagine what the world will be like at the end of the next <u>millennum</u>.</label><br>
+                                                    <input type="text" id="sentence93" name="sentence93" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 94 -->
+                    <div class="form-group">
+                                    <label for="sentence94">94. Draw a pair of <u>paralel</u> lines.</label><br>
+                                                    <input type="text" id="sentence94" name="sentence94" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 95 -->
+                    <div class="form-group">
+                                    <label for="sentence95">95. His books are full of <u>repetision</u>.</label><br>
+                                                    <input type="text" id="sentence95" name="sentence95" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 96 -->
+                    <div class="form-group">
+                                    <label for="sentence96">96. The car's speed was reduced by air/wind <u>resistanse</u>.</label><br>
+                                                    <input type="text" id="sentence96" name="sentence96" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 97 -->
+                    <div class="form-group">
+                                    <label for="sentence97">97. I have a low/high boredom <u>threshould</u>.</label><br>
+                                                    <input type="text" id="sentence97" name="sentence97" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 98 -->
+                    <div class="form-group">
+                                    <label for="sentence98">98. The most interesting <u>hyopthesis</u> is that you can imagine all sort of possibilities for what an experience is going to be.</label><br>
+                                                    <input type="text" id="sentence98" name="sentence98" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 99 -->
+                    <div class="form-group">
+                                    <label for="sentence99">99. A surprising percentage of the population is <u>illterate</u>.</label><br>
+                                                    <input type="text" id="sentence99" name="sentence99" placeholder="Correct word" required>
+                                                                </div>
+            <!-- Sentence 100 -->
+                    <div class="form-group">
+                                    <label for="sentence100">100. The <u>possesion</u> of large amounts of money does not ensure happiness.</label><br>
+                                                    <input type="text" id="sentence100" name="sentence100" placeholder="Correct word" required>
+                                                                </div>
+
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
